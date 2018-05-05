@@ -1,0 +1,68 @@
+{
+  "info" :
+  {
+    "name" : "qx-iconfont-material",
+
+    "summary" : "theme for the osparc web ui",
+    "description" : "a material design ispired dark theme for osparc",
+    "homepage" : "https://github.com/ITISFoundation/qx-osparc-theme",
+
+    "license" : "MIT license",
+    "authors" : [
+      {
+        "name": "Tobias Oetiker (oetiker)",
+        "email": "tobi@itis.ethz.ch"
+      }
+    ],
+    "version" : "0.0.0",
+    "qooxdoo-range": "5.x - 6.0.0-alpha"
+  },
+
+  "provides" :
+  {
+    "namespace"   : "iconfont.fontawesome5",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "contribution",
+    "webfonts": [
+      {
+        "name": "FontAwesome5Brands",
+        "defaultSize": 32,
+        "comparisonString": "\uf26e\uf368",
+        "mapping": "iconfont/fontawesome5/fa-brands.json",
+        "resources": [
+          "iconfont/fontawesome5/fa-brands-400.ttf",
+          "iconfont/fontawesome5/fa-brands-400.woff",
+          "iconfont/fontawesome5/fa-brands-400.woff2",
+          "iconfont/fontawesome5/fa-brands-400.eot"
+        ]
+      },
+      {
+        "name": "FontAwesome5Regular",
+        "defaultSize": 32,
+        "comparisonString": "\uf2b9\uf2bb",
+        "mapping": "iconfont/fontawesome5/fa-regular.json",
+        "resources": [
+          "iconfont/fontawesome5/fa-regular-400.ttf",
+          "iconfont/fontawesome5/fa-regular-400.woff",
+          "iconfont/fontawesome5/fa-regular-400.woff2",
+          "iconfont/fontawesome5/fa-regular-400.eot"
+        ]
+      },
+      {
+        "name": "FontAwesome5Solid",
+        "defaultSize": 32,
+        "comparisonString": "\uf2b9\uf2bb",
+        "mapping": "iconfont/fontawesome5/fa-solid.json",
+        "resources": [
+          "iconfont/fontawesome5/fa-solid-900.ttf",
+          "iconfont/fontawesome5/fa-solid-900.woff",
+          "iconfont/fontawesome5/fa-solid-900.woff2",
+          "iconfont/fontawesome5/fa-solid-900.eot"
+        ]
+      }
+    ]
+  }
+}
