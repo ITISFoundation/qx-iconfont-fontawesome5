@@ -3,7 +3,7 @@
 > These instructions assume that you are using the new [qooxdoo-compiler](https://github.com/qooxdoo/qooxdoo-compiler)
 > for building your application.
 
-
+![Demo](http://g.recordit.co/VUckrxNmZy.gif)
 
 ## Using the iconfont in your Application
 
@@ -28,7 +28,7 @@ The demo app shows a list of all the icons available.
 
 To find the names of the icons, either look at the demo app, or go to https://fontawesome.com/icons
 
-![Demo](http://g.recordit.co/VUckrxNmZy.gif)
+
 
 ## Running the Demo App
 
