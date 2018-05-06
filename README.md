@@ -56,5 +56,5 @@ $ docker-compose run qx lint
 Inspect the image interactively
 
 ```console
-$ docker run --entrypoint /bin/bash -i -t itisfoundation/qx-osparc-theme
+$ docker run --entrypoint /bin/bash -i -t itisfoundation/qx-iconfont-fontawesome5
 ```
