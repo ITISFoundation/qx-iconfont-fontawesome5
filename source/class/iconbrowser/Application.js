@@ -57,7 +57,7 @@ qx.Class.define("iconbrowser.Application", {
         label.setWidth(80*Math.ceil((label.getSizeHint().width+10.0)/80.0));
         list.add(label);
         iconDb[font].forEach(function(item) {
-          let img = new qx.ui.form.Button(null, item.handle).set({
+          let img = new qx.ui.form.Button(null, item.handle + "/40").set({
             toolTipText: item.name + " - click to copy",
             minWidth: 80,
             minHeight: 80
