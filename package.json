@@ -10,11 +10,11 @@
     "lint": "eslint ./source/class/iconbrowser/**/*.js",
     "build": "qx compile --target=source"
   },
-  "name": "qx-iconfont-material",
+  "name": "qx-iconfont-fontawesome5",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ITISFoundation/qx-iconfont-material.git"
+    "url": "git://github.com/ITISFoundation/qx-iconfont-fontawesome5.git"
   },
   "licenses": [
     {

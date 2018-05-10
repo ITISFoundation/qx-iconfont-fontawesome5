@@ -1,11 +1,11 @@
 {
   "info" :
   {
-    "name" : "qx-iconfont-material",
+    "name" : "qx-iconfont-fontawesome5",
 
-    "summary" : "theme for the osparc web ui",
-    "description" : "a material design ispired dark theme for osparc",
-    "homepage" : "https://github.com/ITISFoundation/qx-osparc-theme",
+    "summary" : "font awesome 5 iconfont",
+    "description" : "qooxdoo integration of the font awesome iconfonts",
+    "homepage" : "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
 
     "license" : "MIT license",
     "authors" : [
@@ -14,7 +14,7 @@
         "email": "tobi@itis.ethz.ch"
       }
     ],
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "qooxdoo-range": "5.x - 6.0.0-alpha"
   },
 
