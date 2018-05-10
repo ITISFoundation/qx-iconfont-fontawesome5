@@ -66,7 +66,7 @@ qx.Class.define("iconbrowser.Application", {
             copy.value = item.handle;
             copy.select();
             document.execCommand("copy");
-          });
+          },this);
           list.add(img);
         });
       }
