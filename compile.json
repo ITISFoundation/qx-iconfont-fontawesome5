@@ -30,12 +30,12 @@
       "name": "iconbrowser",
       "writeIndexHtmlToRoot": true,
       "include": [
-        "iconfont.fontawesome5.Include"
+        "iconfont.FontAwesome5"
       ]
     }
   ],
   "libraries": [
-    "../.npm-global/lib/node_modules/qooxdoo-sdk/framework",
+    "../qooxdoo-sdk/framework",
     "."
   ]
 }

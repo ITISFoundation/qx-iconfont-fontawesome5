@@ -8,14 +8,11 @@ USER node
 
 # qooxdoo versioning
 
-# npm variables
-#ENV NPM_CONFIG_LOGLEVEL=warn
-ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
-
 # access to bin
-ENV PATH=$NPM_CONFIG_PREFIX/bin:$PATH
+ENV PATH=/home/node/node_modules/.bin:$PATH
 
-RUN npm install qxcompiler qooxdoo-sdk -g
+COPY --chown=node:node package.json /home/node/
+RUN cd /home/node && npm install && git clone --depth=1 https://github.com/qooxdoo/qooxdoo.git qooxdoo-sdk
 
 WORKDIR /home/node/src
 VOLUME  /home/node/src
