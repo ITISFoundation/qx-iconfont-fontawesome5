@@ -4,4 +4,4 @@
 /**
  * @asset(iconfont/fontawesome5/*)
  */
-qx.Class.define("iconfont.FontAwesome5", {});
+qx.Class.define("iconfont.fontawesome5.Load", {});

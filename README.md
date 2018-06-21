@@ -15,7 +15,7 @@ $ qx contrib install ITISFoundation/qx-iconfont-fontawesome5
 
 To induce the compiler to copy the font file you can either add a 'dummy' call to:
 
-`iconfont.FontAwesome5;`
+`iconfont.fontawesome5.Load;`
 
 to your appliaction or you can explicitly include the class in the `compile.json` file.
 

@@ -30,7 +30,7 @@
       "name": "iconbrowser",
       "writeIndexHtmlToRoot": true,
       "include": [
-        "iconfont.FontAwesome5"
+        "iconfont.fontawesome5.Load"
       ]
     }
   ],
