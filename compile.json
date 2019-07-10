@@ -28,14 +28,9 @@
       "class": "iconbrowser.Application",
       "theme": "qx.theme.Simple",
       "name": "iconbrowser",
-      "writeIndexHtmlToRoot": true,
       "include": [
         "iconfont.fontawesome5.Load"
       ]
     }
-  ],
-  "libraries": [
-    "./node_modules/qooxdoo-sdk/framework",
-    "."
   ]
 }

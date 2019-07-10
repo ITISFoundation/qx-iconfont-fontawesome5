@@ -8,9 +8,9 @@
 ## Using the iconfont in your Application
 
 ```console
-$ qx contrib update
-$ qx contrib list
-$ qx contrib install ITISFoundation/qx-iconfont-fontawesome5
+$ qx package update
+$ qx package list
+$ qx package install ITISFoundation/qx-iconfont-fontawesome5
 ```
 
 To induce the compiler to copy the font file you can either add a 'dummy' call to:
@@ -48,7 +48,7 @@ and give this a whirl.
    ```console
    $ docker-compose up
    ```
-  Now you can open http://localhost:31754 to see the widgetbrowser. The selectbox in the top right corner lets you select the OSparc theme.
+  Now you can open http://localhost:31754 to see fonticon browser.
 
 If you want to run a different qx command, you can do this too
 
