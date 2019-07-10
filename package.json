@@ -1,15 +1,12 @@
 {
-  "dependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-qx": "^0.1.0",
-    "eslint-plugin-qx-rules": "^0.1.0",
-    "qooxdoo-sdk": "^6.0.0-alpha-20190220-ab136bd",
-    "qxcompiler": "^0.3.0-alpha"
-  },
   "scripts": {
     "lint": "eslint ./source/class/iconbrowser/**/*.js",
     "build": "qx compile --target=source"
   },
-  "preferGlobal": false
+  "preferGlobal": false,
+  "dependencies": {
+    "@qooxdoo/compiler": "^1.0.0-beta.20190708-0855",
+    "@qooxdoo/eslint-config-qx": "^1.2.1",
+    "@qooxdoo/eslint-plugin-qx": "^1.2.1"
+  }
 }
