@@ -6,7 +6,7 @@
     "homepage": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
     "license": "MIT license",
     "authors": [],
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "provides": {
     "namespace": "iconfont.fontawesome5",
