@@ -1,7 +1,7 @@
 # Qooxdoo Integration of the Font Awesome 5 Icons font
 
 > These instructions assume that you are using the new [qooxdoo-compiler](https://github.com/qooxdoo/qooxdoo-compiler)
-> for building your application.
+> for building your application. 
 
 ![Demo](http://g.recordit.co/VUckrxNmZy.gif)
 
