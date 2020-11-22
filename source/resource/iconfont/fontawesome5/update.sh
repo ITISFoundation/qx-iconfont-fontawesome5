@@ -4,5 +4,6 @@ cp fa-git/LICENSE.txt .
 cp fa-git/CHANGELOG.md .
 cp fa-git/webfonts/* .
 cp fa-git/metadata/icons.yml .
+rm *.svg
 rm -rf fa-git
 node ./fa-map-convert.js
