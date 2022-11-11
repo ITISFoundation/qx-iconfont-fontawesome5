@@ -6,7 +6,7 @@
     "homepage": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
     "license": "MIT license",
     "authors": [],
-    "version": "0.2.2"
+    "version": "1.0.0"
   },
   "provides": {
     "namespace": "iconfont.fontawesome5",
@@ -54,8 +54,7 @@
     ]
   },
   "requires": {
-    "@qooxdoo/framework": "^6.0.0-alpha",
-    "@qooxdoo/compiler": "^1.0.0-beta"
+    "@qooxdoo/framework": "^7.3.0"
   },
   "$schema": "https://raw.githubusercontent.com/qooxdoo/qooxdoo-compiler/master/source/resource/qx/tool/schema/Manifest-1-0-0.json"
 }
