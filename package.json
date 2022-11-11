@@ -5,8 +5,8 @@
   },
   "preferGlobal": false,
   "dependencies": {
-    "@qooxdoo/compiler": "^1.0.0-beta",
-    "@qooxdoo/eslint-config-qx": "^1.2.1",
-    "@qooxdoo/eslint-plugin-qx": "^1.2.1"
+    "@qooxdoo/framework": "^7.3.0",
+    "@qooxdoo/eslint-config-qx": "^2.0.1",
+    "@qooxdoo/eslint-plugin-qx": "^1.2.22"
   }
 }
